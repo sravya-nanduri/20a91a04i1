@@ -1,0 +1,12 @@
+package Pack1;
+public class Op1 {
+	public static void main(String[] args) {
+		int a = 50;
+		int b = 35;
+		int c = 70;
+		System.out.println(a<b && a<c); 
+		System.out.println(a>b && a<c); 
+		System.out.println(a<b || a<c); 
+		System.out.println(a<b || a>c); 
+		System.out.println(a>b || a<c); 
+	} }
