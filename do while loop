@@ -1,0 +1,19 @@
+package cond;
+import java.util.*;
+public class DoWhile {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String  ch = "yes"; // for condition is true
+		do
+		{
+			System.out.println("enter sno: ");
+			int sno = sc.nextInt();
+			System.out.println("enter sname: ");
+			String sname = sc.next();
+			System.out.println("sno = "+sno);
+			System.out.println("sname = "+sname);
+System.out.println("enter choice[yes/no]: ");
+			ch = sc.next();
+		}		while(ch.equals("yes"));
+		System.out.println("end of data");
+	} }
